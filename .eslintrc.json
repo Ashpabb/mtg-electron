@@ -1,0 +1,30 @@
+{
+  "env": {
+    "es6": true,
+    "node": false,
+    "browser": false
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "html"
+  ],
+  "globals": {
+    "_genesys": true,
+    "__GetDocumentURL": true,
+    "__GetDocumentBaseURL": true,
+    "__Log": true,
+    "__Raise": true,
+    "In": true,
+    "__GetDocumentType": true,
+    "__GetCurrentStates": true,
+    "__GetQueuedEvents": true
+  },
+  "extends": [ "eslint:recommended", "airbnb" ],
+  "rules": {
+    "no-console": "off",
+    "no-unused-vars": "off",
+    "no-undef": "off",
+    "no-continue": "off"
+    // eslint-disable-line no-param-reassign
+  }
+}
